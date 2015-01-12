@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-	<Getr action="handle-user-input.php" numDigits="10" timeout="15">
+	<Getr action="https://raw.githubusercontent.com/mandobomb/twilio/master/handle-user-input.php" numDigits="10" timeout="15">
 		<Say>Hey Please dial the area code and phone number you are trying to reach</Say>
 	</Gather>
 	<!-- If user doesn't input anything, prompt and try again. -->
