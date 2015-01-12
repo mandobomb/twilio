@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+	<Gather>
+	<Say>Please dial the area code and phone number you are trying to reach.</Say>
+	</Gather>
+	<!-- If user doesn't input anything, prompt and try again. -->
+	<Say>Sorry, I didn't get your response.</Say>
+ <Redirect>handle-incoming-cal.xml</Redirect>
+</Response>
