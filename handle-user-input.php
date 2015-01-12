@@ -6,20 +6,7 @@
 
 	$user_pushed = (int) $_REQUEST['Digits'];
 
-	if (numDigits==10)
-	{
-		echo '<Say>Calling</Say>';
-		echo '<Dial record="true">';
-		echo '<Number>$user_pushed</Number>';
-		echo '</Dial>';
-	}
-	# @start snippet
-	else if (numDigits!==10)
-	{
-		echo '<Say>I'm sorry</Say>';
-        echo '<Say>Please try again</Say>';
-        echo '</Hangup>';
-	}
+	<Dial callerID="941-787-2178" record="true">$user_pushed</Dial>
 
 	echo '</Response>';
 ?>
