@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
 	<Getr action="handle-user-input.php" numDigits="10">
-		<Say>Please dial the area code and phone number you are trying to reach.</Say>
+		<Say voice="alice" language="en-GB">Please dial the area code and phone number you are trying to reach</Say>
 	</Gather>
 	<Say>Sorry, I didn't get your response.</Say>
 	<Redirect>handle-incoming-call.xml</Redirect>
